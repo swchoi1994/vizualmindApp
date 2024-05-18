@@ -13,24 +13,23 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Morphic'
-const description =
-  'A fully open-source AI-powered answer engine with a generative UI.'
+const title = 'VizualMind'
+const description = 'AI-generated visual aids for every student.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://morphic.sh'),
+  metadataBase: new URL('https://www.vizualmind.com/'),
   title,
   description,
   openGraph: {
     title,
     description
-  },
-  twitter: {
-    title,
-    description,
-    card: 'summary_large_image',
-    creator: '@miiura'
   }
+  // twitter: {
+  //   title,
+  //   description,
+  //   card: 'summary_large_image',
+  //   creator: '@miiura'
+  // }
 }
 
 export const viewport: Viewport = {
