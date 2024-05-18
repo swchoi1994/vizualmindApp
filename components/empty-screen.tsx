@@ -7,12 +7,12 @@ const exampleMessages = [
     message: "What's new with the iPad Pro?"
   },
   {
-    heading: 'Why is Nvidia growing rapidly?',
-    message: 'Why is Nvidia growing rapidly?'
+    heading: 'Tell me about the latest iPhone',
+    message: 'Tell me about the latest iPhone'
   },
   {
-    heading: 'How does the Vercel AI SDK work?',
-    message: 'How does the Vercel AI SDK work?'
+    heading: 'What is happening right now in California?',
+    message: 'What is happening right now in California?'
   },
   {
     heading: 'Tesla vs Rivian',

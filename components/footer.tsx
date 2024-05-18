@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { SiDiscord, SiGithub, SiTwitter } from 'react-icons/si'
+import { SiDiscord, SiYoutube, SiLinkedin, SiTiktok } from 'react-icons/si'
 import { Button } from './ui/button'
 
 const Footer: React.FC = () => {
@@ -16,24 +16,39 @@ const Footer: React.FC = () => {
             <SiDiscord size={18} />
           </Link>
         </Button>
-        {/* <Button
+        <Button
           variant={'ghost'}
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://twitter.com/morphic_ai" target="_blank">
-            <SiTwitter size={18} />
+          <Link
+            href="https://www.linkedin.com/company/vizualmind/"
+            target="_blank"
+          >
+            <SiLinkedin size={18} />
           </Link>
-        </Button> */}
-        {/* <Button
+        </Button>
+        <Button
           variant={'ghost'}
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://git.new/morphic" target="_blank">
-            <SiGithub size={18} />
+          <Link
+            href="https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL11qn6zM2Y3bMZdChxEqHKaCaKUjwItGL"
+            target="_blank"
+          >
+            <SiYoutube size={18} />
           </Link>
-        </Button> */}
+        </Button>
+        <Button
+          variant={'ghost'}
+          size={'icon'}
+          className="text-muted-foreground/50"
+        >
+          <Link href="https://www.tiktok.com/" target="_blank">
+            <SiTiktok size={18} />
+          </Link>
+        </Button>
       </div>
     </footer>
   )

@@ -98,7 +98,7 @@ export function ChatPanel({ messages }: ChatPanelProps) {
             ref={inputRef}
             name="input"
             rows={1}
-            maxRows={5}
+            maxRows={7}
             tabIndex={0}
             placeholder="Ask a question..."
             spellCheck={false}
@@ -136,7 +136,7 @@ export function ChatPanel({ messages }: ChatPanelProps) {
               const newBorder = initialBorder - 4 * multiple
               // The lowest border radius will be 8px
               inputRef.current.style.borderRadius =
-                Math.max(8, newBorder) + 'px'
+                Math.max(10, newBorder) + 'px'
             }}
             onFocus={() => setShowEmptyScreen(true)}
             onBlur={() => setShowEmptyScreen(false)}
