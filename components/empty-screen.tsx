@@ -3,8 +3,8 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: "What's new with the iPad Pro?",
-    message: "What's new with the iPad Pro?"
+    heading: "What's new with Qualcomm ARM chips?",
+    message: "What's new with Qualcomm ARM chips?"
   },
   {
     heading: 'Tell me about the latest iPhone',
@@ -15,8 +15,12 @@ const exampleMessages = [
     message: 'What is happening right now in California?'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'How did Elon Musk become so successful?',
+    message: 'How did Elon Musk become so successful?'
+  },
+  {
+    heading: 'iOS vs Android',
+    message: 'iOS vs Android'
   }
 ]
 export function EmptyScreen({
