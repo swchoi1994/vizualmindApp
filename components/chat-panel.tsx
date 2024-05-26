@@ -92,6 +92,17 @@ export function ChatPanel({ messages }: ChatPanelProps) {
         'fixed bottom-8 left-0 right-0 top-10 mx-auto h-screen flex flex-col items-center justify-center'
       }
     >
+      <h1
+        className="text-3xl font-bold text-center mb-4"
+        style={{
+          background:
+            'linear-gradient(to right, #FF81B6, #7D42FF, #08FCFF, #1519BC)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent'
+        }}
+      >
+        New Search Engine starts Here
+      </h1>
       <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6">
         <div className="relative flex items-center w-full">
           <Textarea

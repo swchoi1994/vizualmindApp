@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://discord.gg/gMxa7ezt4X" target="_blank">
+          <Link href="" target="_blank">
             <SiDiscord size={18} />
           </Link>
         </Button>
@@ -21,10 +21,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link
-            href="https://www.linkedin.com/company/vizualmind/"
-            target="_blank"
-          >
+          <Link href="https://www.linkedin.com/in/swchoi1994/" target="_blank">
             <SiLinkedin size={18} />
           </Link>
         </Button>
@@ -34,7 +31,7 @@ const Footer: React.FC = () => {
           className="text-muted-foreground/50"
         >
           <Link
-            href="https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL11qn6zM2Y3bMZdChxEqHKaCaKUjwItGL"
+            href="https://www.youtube.com/channel/UCy5eShgViF69uDf7XdxmA3g"
             target="_blank"
           >
             <SiYoutube size={18} />
@@ -45,7 +42,7 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-          <Link href="https://www.tiktok.com/" target="_blank">
+          <Link href="https://www.tiktok.com/@swchoi94?lang=en" target="_blank">
             <SiTiktok size={18} />
           </Link>
         </Button>

@@ -31,7 +31,7 @@ export const Section: React.FC<SectionProps> = ({
   switch (title) {
     case 'Images':
       // eslint-disable-next-line jsx-a11y/alt-text
-      icon = <Image size={18} className="mr-2" />
+      icon = <Image size={22} className="mr-2" />
       break
     case 'Sources':
       icon = <Newspaper size={18} className="mr-2" />

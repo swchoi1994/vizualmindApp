@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter as FontSans } from 'next/font/google'
+import { Inter as FontSans, Roboto, Rubik } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import { ThemeProvider } from '@/components/theme-provider'
@@ -13,11 +13,23 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'VizualMind'
-const description = 'AI-generated visual aids for every student.'
+// const fontRoboto = Roboto({
+//   subsets: ['latin'], // preload에 사용할 subsets입니다.
+//   weight: ['100', '400', '700'],
+//   variable: '--roboto'
+// })
+
+// const fontRubik = Rubik({
+//   subsets: ['latin'],
+//   weight: ['300', '400', '600', '700'],
+//   variable: '--rubik'
+// })
+
+const title = 'New Search Engine'
+const description = 'AI-generated search engine for everyone.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.vizualmind.com/'),
+  metadataBase: new URL('https://www.linkedin.com/in/swchoi1994/'),
   title,
   description,
   openGraph: {
@@ -47,6 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn('font-sans antialiased', fontSans.variable)}>
+        {/* <body className={cn('font-roboto antialiased', fontRoboto.variable)}> */}
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
